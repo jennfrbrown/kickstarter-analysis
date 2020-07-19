@@ -47,6 +47,11 @@ Using the CountIFS() function allowed us to apply criteria to cells across multi
 
 ### Challenges and Difficulties Encountered
 
+Some of the challenges encountered had to do with excel automatically parsing data in pivot tables.  The automatic parsing that excel did caused the data to display in a way that was not easily understandable.  To fix that, the additional fields excel created in the pivot table had to be removed.
+
+Another challenge comes from not locking cells in your formulas.  If you did not lock your specific ranges and tried to copy the formula by dragging it into another it changes your original reference cells, supplying you with "correct" information, but not the information you are looking for.
+
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
