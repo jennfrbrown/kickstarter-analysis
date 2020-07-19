@@ -27,7 +27,10 @@ From there we put subcategories into their own column.  This was done by using t
 
 <img src="CreateSubcategory3.png" height="200" width="600">
                                            
-For there we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome".  After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.
+From there we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome".  After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.
+
+***One of the challenges  is that excel automatically parsed the dates when the pivot table was created.  This analysis works best if you remove the quarters and years fields that Excel automatically parsed in."***
+
 ### Analysis of Outcomes Based on Goals
 
 One of the first things we did was add filters to this data, this allows us to omit data that doesn't pertain or focus in on specific data.  We sorted the Pledged and Goal Columns from highest to lowest to put them in some semblance of order. 
