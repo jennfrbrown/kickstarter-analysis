@@ -62,6 +62,8 @@ Another challenge comes from not locking cells in your formulas.  If you did not
 
 - What can you conclude about the Outcomes based on Goals?
 
+1. Those plays with less than a $20,000 goal were over 50% successful.  Except for in the $35,000-$45,000, a lower goal predicts an increased chance for a successful outcome.
+
 - What are some limitations of this dataset?
 
 - What are some other possible tables and/or graphs that we could create?
