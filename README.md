@@ -15,9 +15,11 @@ The purpose of this analysis is to determine how different campaigns fared in re
 To perform the analysis of Outcomes based on Launch Date, we first made all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard fromat.  Next we added conditional formatting on the four categories in the Outcome column: Successful, Failed, Canceled, and Live.  We formatted them each to be highlighted a specific color based on the outcome.  
 
 From there we put subcategories into their own column.  This was done by using the "Convert Text to Columns Wizard". 
-<img src="CreateSubcategory.PNG" width="800">
+<img src="CreateSubcategory.PNG" height="200">
 
-<img src="CreateSubcategory2.png" width="800">
+<img src="CreateSubcategory2.png" height="200">
+
+<img src="CreateSubcategory3.png" height="200">
                                            
 
 ### Analysis of Outcomes Based on Goals
