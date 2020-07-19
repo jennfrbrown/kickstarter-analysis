@@ -12,16 +12,22 @@ The purpose of this analysis is to determine how different campaigns fared in re
 
 ### Analysis of Outcomes Based on Launch Date
 
-To perform the analysis of Outcomes based on Launch Date, we first made all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard fromat.  Next we added conditional formatting on the four categories in the Outcome column: Successful, Failed, Canceled, and Live.  We formatted them each to be highlighted a specific color based on the outcome.  
+To perform the analysis of Outcomes based on Launch Date, we first made all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard fromat.  
+
+1. In a new column, add the heading "Date Created Conversion."
+2. Enter the formula where X is the first data cell of the Launched_at column: "= (((x/60)/60)+DATE(1970,1,1)"
+
+Next we added conditional formatting on the four categories in the Outcome column: Successful, Failed, Canceled, and Live.  We formatted them each to be highlighted a specific color based on the outcome.  
 
 From there we put subcategories into their own column.  This was done by using the "Convert Text to Columns Wizard". 
+
 <img src="CreateSubcategory.PNG" height="200">
 
 <img src="CreateSubcategory2.png" height="200" width="600">
 
 <img src="CreateSubcategory3.png" height="200" width="600">
                                            
-
+For there we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome".  After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.
 ### Analysis of Outcomes Based on Goals
 
 One of the first things we did was add filters to this data, this allows us to omit data that doesn't pertain or focus in on specific data.  We sorted the Pledged and Goal Columns from highest to lowest to put them in some semblance of order. 
