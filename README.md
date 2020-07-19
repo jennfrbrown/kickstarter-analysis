@@ -56,7 +56,9 @@ Another challenge comes from not locking cells in your formulas.  If you did not
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-1. The most successful Kickstarter campaigns were started in May.  However, most of the least successful campaigns started in December.
+1. The most successful Kickstarter campaigns were started in May.  
+2. The least successful campaigns started in December.
+3. If launching a campaign, you see the greatest percentage of successful outcomes May through August.
 
 - What can you conclude about the Outcomes based on Goals?
 
