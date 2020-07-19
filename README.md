@@ -16,6 +16,7 @@ To perform the analysis of Outcomes based on Launch Date, we first made all the 
 
 From there we put subcategories into their own column.  This was done by using the "Convert Text to Columns Wizard". 
 <img src="CreateSubcategory.PNG" height="200">
+<img src="CreateSubcategory3.png" height="200">
                                            
 
 ### Analysis of Outcomes Based on Goals
