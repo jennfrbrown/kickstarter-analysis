@@ -41,6 +41,8 @@ One of the first things we did was add filters to this data, this allows us to o
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+1. The most successful Kickstarter campaigns were started in May.  However, most of the least successful campaigns started in December.
+
 - What can you conclude about the Outcomes based on Goals?
 
 - What are some limitations of this dataset?
