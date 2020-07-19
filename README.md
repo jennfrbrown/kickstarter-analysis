@@ -12,12 +12,14 @@ The purpose of this analysis is to determine how different campaigns fared in re
 
 ### Analysis of Outcomes Based on Launch Date
 
-To perform the analysis of Outcomes based on Launch Date, we first made all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard fromat.  
+**For this analysis we used pivot tables and pivot charts to provide visualized campaign outcomes based on the campaign launch date.**
+
+To perform the analysis of Outcomes based on Launch Date, we must first make all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard format.  
 
 1. In a new column, add the heading "Date Created Conversion."
 2. Enter the formula where X is the first data cell of the Launched_at column: "= (((x/60)/60)+DATE(1970,1,1)"
 
-Next we added conditional formatting on the four categories in the Outcome column: Successful, Failed, Canceled, and Live.  We formatted them each to be highlighted a specific color based on the outcome.  
+Then we created a new colum labeled "years" and using the "YEAR()" function pulled the year from the "Date Conversion Column".
 
 From there we put subcategories into their own column.  This was done by using the "Convert Text to Columns Wizard". 
 
@@ -27,13 +29,13 @@ From there we put subcategories into their own column.  This was done by using t
 
 <img src="CreateSubcategory3.png" height="200" width="600">
                                            
-From there we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome".  After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.
-
-***One of the challenges  is that excel automatically parsed the dates when the pivot table was created.  This analysis works best if you remove the quarters and years fields that Excel automatically parsed in."***
+Next, we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome". The column labels were filtered to show only "successful", "failed", and "canceled" outcomes. We set the parent category equal to filter to ensure that we looking only at theater projects.  All campaign outcomes were then sorted to   After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.  The filters used were based off what we are trying to provide information for Louise on - outcomes and launch date.
 
 ### Analysis of Outcomes Based on Goals
 
-One of the first things we did was add filters to this data, this allows us to omit data that doesn't pertain or focus in on specific data.  We sorted the Pledged and Goal Columns from highest to lowest to put them in some semblance of order. 
+**For this analysis we used the CountIFS() Function to determine outcomes based on goal amounts for plays specifically.**
+
+For this 
 
 ### Challenges and Difficulties Encountered
 
