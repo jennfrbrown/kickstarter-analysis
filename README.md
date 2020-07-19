@@ -35,7 +35,15 @@ Next, we created a pivot table filtering by parent category and years.  The colu
 
 **For this analysis we used the CountIFS() Function to determine outcomes based on goal amounts for plays specifically.**
 
-For this 
+To determine the percentage of each outcome type (successful, failed, and cancelled), we must first find the number of each outcome type.  To do this, we incorporated use of the "CountIfs()" function.  In the prior assignment separated the parent/subcategory column into parent and subcategory columns allowing us to find the various outcomes of plays specifically.  After finding the number of occurances per outcome, we totalled them to be able to then calculate the percentage per outcomes.  This analysis is important because it provides Louise with information that allows her to see what the likelihood of her success would be based on her goal.  This allows her identify that she may need to employ different strategies based on her goal amount or potentially change her goal amount.
+
+Using the CountIFS() function allowed us to apply criteria to cells across multiple ranges and count the number of times all criterial are met.  This is a much faster process than having to apply the criteria against individual ranges and further manupulate those results to find the number of times ALL criterial are met.  The specific CountIFS() function used here is: 
+
+"=COUNTIFS(Kickstarter!$F:$F, "successful", Kickstarter!$D:$D,"<1000",Kickstarter!$R:$R,"plays")
+ - Kickstarter!$F:$F, "successful" refers to the successful outcome type in that specific range
+ - Kickstarter!$D:$D,"<1000" refers to the goal amount in that specific range
+ - Kickstarter!$R:$R,"plays" refers to the subcategory in that specific range
+
 
 ### Challenges and Difficulties Encountered
 
