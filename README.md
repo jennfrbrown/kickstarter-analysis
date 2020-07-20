@@ -72,7 +72,7 @@ Another limitation is the predetermined subcategories.  For example, the film su
 
 - What are some other possible tables and/or graphs that we could create?
 
-Another possible graphs or tables is duration.  Maybe there is a trend to see if how long a campaign ran impacted its successfulness.
+    Another possible graph or table that would interesting to analysis is campaign duration.  Maybe there is a trend that indicates how long a campaign ran impacted its successfulness.
 
-Another area for anaylsis would be to see if the number of backers impacted the successfulness of a campaign.
+    Another area for anaylsis would be to see if the number of backers impacted the successfulness of a campaign.
 
