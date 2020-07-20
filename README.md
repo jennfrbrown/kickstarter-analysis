@@ -71,3 +71,8 @@ This dataset only analysis kickstarter data.  It does not incorporate data from 
 Another limitation is the predetermined subcategories.  For example, the film subcategories are based on genres as are the theatre subcategories.  It would be interesting to see if the categories were determine on subject matter to see if certain plays or films are more successful based on the topics they address.  
 
 - What are some other possible tables and/or graphs that we could create?
+
+Another possible graphs or tables is duration.  Maybe there is a trend to see if how long a campaign ran impacted its successfulness.
+
+Another area for anaylsis would be to see if the number of backers impacted the successfulness of a campaign.
+
