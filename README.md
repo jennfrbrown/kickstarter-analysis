@@ -68,7 +68,7 @@ Another challenge comes from not locking cells in your formulas.  If you did not
 
 This dataset only analysis kickstarter data.  It does not incorporate data from other crowdsourcing companies, so we do know how these trends compare to other crowdsourcing companies.
 
-Another limitation is the predetermined subcategories.  For example, the film subcategories are based on genres as are the theatre subcategories.  It would be interesting to see if the categories were determine on subject matter to see if certain plays or films are more successful based on the topics they address.  
+Another limitation is the predetermined subcategories.  For example, the film subcategories are based on genres, as are the theatre subcategories.  It would be interesting to see if the categories were divided on subject matter  if certain plays or films are more successful based on the topics they address.  
 
 - What are some other possible tables and/or graphs that we could create?
 
