@@ -14,7 +14,7 @@ The purpose of this analysis is to determine how different campaigns fared in re
 
 **For this analysis we used pivot tables and pivot charts to provide visualized campaign outcomes based on the campaign launch date.**
 
-To perform the analysis of Outcomes based on Launch Date, we must first make all the data readable.  This involved changing the deadline and Launched-at columns from Unix timestamps to dates in a standard format.  
+To perform the analysis of Outcomes based on Launch Date, we must first make all the data readable.  This involved changing the deadline and Launched_at columns from Unix timestamps to dates in a standard format.  
 
 1. In a new column, add the heading "Date Created Conversion."
 2. Enter the formula where X is the first data cell of the Launched_at column: "= (((x/60)/60)+DATE(1970,1,1)"
@@ -29,13 +29,13 @@ From there we put subcategories into their own column.  This was done by using t
 
 <img src="CreateSubcategory3.png" height="200" width="600">
                                            
-Next, we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome". The column labels were filtered to show only "successful", "failed", and "canceled" outcomes. We set the parent category equal to filter to ensure that we looking only at theater projects.  All campaign outcomes were then sorted to   After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.  The filters used were based off what we are trying to provide information for Louise on - outcomes and launch date.
+Next, we created a pivot table filtering by parent category and years.  The column value was equal to "outcome", rows values equal to "date created conversion", and values equal to "outcome". The column labels were filtered to show only "successful", "failed", and "canceled" outcomes. We set the parent category equal to theater to ensure that we looking only at theater projects.  All campaign outcomes were then sorted.  After setting up the pivot chart we created a pivot line chart, selecting the "Line with Markers" style.  The filters used were based off what we are trying to provide information for Louise on - outcomes and launch date.
 
 ### Analysis of Outcomes Based on Goals
 
 **For this analysis we used the CountIFS() Function to determine outcomes based on goal amounts for plays specifically.**
 
-To determine the percentage of each outcome type (successful, failed, and cancelled), we must first find the number of each outcome type.  To do this, we incorporated use of the "CountIfs()" function.  In the prior assignment separated the parent/subcategory column into parent and subcategory columns allowing us to find the various outcomes of plays specifically.  After finding the number of occurances per outcome, we totalled them to be able to then calculate the percentage per outcomes.  This analysis is important because it provides Louise with information that allows her to see what the likelihood of her success would be based on her goal.  This allows her identify that she may need to employ different strategies based on her goal amount or potentially change her goal amount.
+To determine the percentage of each outcome type (successful, failed, and cancelled), we must first find the number of each outcome type.  To do this, we incorporated use of the "CountIfs()" function.  In the prior assignment, we separated the parent/subcategory column into parent and subcategory columns allowing us to find the various outcomes of plays specifically.  After finding the number of occurances per outcome, we totalled them to be able to then calculate the percentage per outcomes.  This analysis is important because it provides Louise with information that allows her to see what the likelihood of her success would be based on her goal.  This allows her identify that she may need to employ different strategies based on her goal amount or potentially change her goal amount.
 
 Using the CountIFS() function allowed us to apply criteria to cells across multiple ranges and count the number of times all criterial are met.  This is a much faster process than having to apply the criteria against individual ranges and further manupulate those results to find the number of times ALL criterial are met.  The specific CountIFS() function used here is: 
 
